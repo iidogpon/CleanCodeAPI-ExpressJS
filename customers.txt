@@ -1,0 +1,170 @@
+[
+  {
+    "id": "a1b2c3",
+    "timestamp": "2023-01-10T08:20:00.000Z",
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "phone": "123-456-7890",
+    "address": {
+      "street": "123 4th Street",
+      "city": "Citytown",
+      "state": "ST",
+      "zip": "12345"
+    },
+    "notes": "Important customer, handle with care."
+  },
+  {
+    "id": "d4e5f6",
+    "timestamp": "2023-01-11T09:15:00.000Z",
+    "name": "Jane Smith",
+    "email": "janesmith@example.com",
+    "phone": "098-765-4321",
+    "address": {
+      "street": "987 6th Avenue",
+      "city": "Towncity",
+      "state": "TS",
+      "zip": "54321"
+    },
+    "notes": "Prefers email communication."
+  },
+  {
+    "id": "g7h8i9",
+    "timestamp": "2023-01-12T10:30:00.000Z",
+    "name": "Alice Johnson",
+    "email": "alicej@example.com",
+    "phone": "555-666-7777",
+    "address": {
+      "street": "456 7th Street",
+      "city": "Villetown",
+      "state": "VT",
+      "zip": "23456"
+    },
+    "notes": "Ask for feedback on new products."
+  },
+  {
+    "id": "j1k2l3",
+    "timestamp": "2023-01-13T11:45:00.000Z",
+    "name": "Bob Brown",
+    "email": "bobb@example.com",
+    "phone": "888-999-0000",
+    "address": {
+      "street": "321 8th Avenue",
+      "city": "Burgville",
+      "state": "BV",
+      "zip": "34567"
+    },
+    "notes": "VIP customer, send holiday gift."
+  },
+  {
+    "id": "m4n5o6",
+    "timestamp": "2023-01-14T12:00:00.000Z",
+    "name": "Carol King",
+    "email": "carolk@example.com",
+    "phone": "222-333-4444",
+    "address": {
+      "street": "789 9th Street",
+      "city": "Kingstown",
+      "state": "KT",
+      "zip": "45678"
+    },
+    "notes": "Interested in bulk orders."
+  },
+  {
+    "id": "p7q8r9",
+    "timestamp": "2023-01-15T13:30:00.000Z",
+    "name": "David Lee",
+    "email": "davidl@example.com",
+    "phone": "111-222-3333",
+    "address": {
+      "street": "321 10th Avenue",
+      "city": "Leetown",
+      "state": "LT",
+      "zip": "56789"
+    },
+    "notes": "Inquire about custom orders."
+  },
+  {
+    "id": "s0t1u2",
+    "timestamp": "2023-01-16T14:50:00.000Z",
+    "name": "Eva Green",
+    "email": "evag@example.com",
+    "phone": "666-777-8888",
+    "address": {
+      "street": "654 11th Street",
+      "city": "Greenville",
+      "state": "GV",
+      "zip": "67890"
+    },
+    "notes": "Follow up on service issue."
+  },
+  {
+    "id": "v3w4x5",
+    "timestamp": "2023-01-17T15:20:00.000Z",
+    "name": "Frank White",
+    "email": "frankw@example.com",
+    "phone": "999-000-1111",
+    "address": {
+      "street": "987 12th Avenue",
+      "city": "Whitetown",
+      "state": "WT",
+      "zip": "78901"
+    },
+    "notes": "Regular customer, maintain relationship."
+  },
+  {
+    "id": "y6z7a8",
+    "timestamp": "2023-01-18T16:30:00.000Z",
+    "name": "Grace Hall",
+    "email": "graceh@example.com",
+    "phone": "123-321-1234",
+    "address": {
+      "street": "123 13th Street",
+      "city": "Hallsburg",
+      "state": "HB",
+      "zip": "89012"
+    },
+    "notes": "Send product catalog."
+  },
+  {
+    "id": "b9c0d1",
+    "timestamp": "2023-01-19T17:40:00.000Z",
+    "name": "Henry Ford",
+    "email": "henryf@example.com",
+    "phone": "321-654-9876",
+    "address": {
+      "street": "456 14th Avenue",
+      "city": "Fordville",
+      "state": "FV",
+      "zip": "90123"
+    },
+    "notes": "Discuss partnership opportunity."
+  },
+  {
+    "id": "efcbe19a",
+    "name": "New Customer",
+    "email": "newcustomer@example.com",
+    "phone": "987-654-3216",
+    "address": {
+      "street": "123 New Street",
+      "city": "Newcity",
+      "state": "NS",
+      "zip": "12345"
+    },
+    "notes": "New customer note.",
+    "timestamp": "2024-01-18T13:15:38.071Z"
+  },
+  {
+    "id": "8126faf8",
+    "name": "New Customer",
+    "email": "newcustomer@example.com",
+    "phone": "123-456-7890",
+    "address": {
+      "street": "123 New Street",
+      "city": "Newcity",
+      "state": "NS",
+      "zip": "12345"
+    },
+    "notes": "New customer note.",
+    "timestamp": "2024-01-18T13:18:12.479Z"
+  }
+]
