@@ -1,4 +1,3 @@
-// src/services/customerService.js
 import { readCustomers, writeCustomers } from '../data/customerData.js';
 import crypto from 'crypto';
 
