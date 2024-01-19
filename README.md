@@ -20,7 +20,7 @@ Getting Started
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository: https://github.com/iidogpon/CleanCodeAPI-ExpressJS.git
 2. Navigate to the project directory: cd CleanCodeAPI-ExpressJS
 3. Install dependencies: npm install
 
