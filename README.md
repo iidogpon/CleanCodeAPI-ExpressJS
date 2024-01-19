@@ -1,36 +1,44 @@
-# CleanCodeCustomersAPI
+# CleanCodeAPI-ExpressJS
 
-## Introduction
-CleanCodeCustomersAPI is a Node.js and Express-based RESTful API that demonstrates clean coding practices and principles in a simple yet scalable friend management system. This project focuses on readability, maintainability, and effective architecture design.
+Repository นี้แสดงตัวอย่างการใช้หลักการเขียน Clean code ในการสร้าง RESTful API ด้วย ExpressJS 
+โดย API นี้ทำหน้าที่เป็นระบบจัดการข้อมูลลูกค้าง่ายๆ ซึ่งสามารถทำงานต่างๆ 
+เช่น การดึงข้อมูล, เพิ่มข้อมูล, ปรับปรุงข้อมูล และการลบข้อมูลลูกค้า
 
-## Technologies
+## คุณสมบัติ
+
+- โค้ดที่เขียนอย่างชัดเจน, สามารถบำรุงรักษาได้ง่าย
+- การแยกความรับผิดชอบ: แยกเป็นชั้นโครงสร้างต่างๆ สำหรับการเข้าถึงข้อมูล, บริการ, และการกำหนดเส้นทาง
+- การทำ CRUD operations สำหรับการจัดการข้อมูลลูกค้า
+- ใช้ ExpressJS เพื่อการกำหนดเส้นทางที่มีประสิทธิภาพ
+
+Getting Started
+
+### Prerequisites
+
 - Node.js
-- Express
-- fs-extra (for file operations)
+- npm or yarn
 
-## Setup and Installation
-1. Clone the repository:
-2. Navigate to the project directory: cd CleanCodeCustomersAPI
+### Installation
+
+1. Clone the repository: https://github.com/iidogpon/CleanCodeAPI-ExpressJS.git
+2. Navigate to the project directory: cd CleanCodeAPI-ExpressJS
 3. Install dependencies: npm install
 
-## Running the Server
-To start the server, run:
+### Running the Application
 
-The server will start on `localhost:3000`.
+Start the server by running: npm start
+
+
+The server will start on `http://localhost:3000`.
 
 ## API Endpoints
-The API provides the following endpoints:
-- `GET /customers`: Retrieve a list of all friends.
-- `POST /customers`: Add a new friend.
-- `PATCH /customers/:id`: Update a friend's information.
-- `DELETE /customers/:id`: Remove a friend.
 
-## Code Examples
-Example of a GET request to retrieve all friends:
-```javascript
-// Example using fetch API
-fetch('http://localhost:3000/customers')
-  .then(response => response.json())
-  .then(data => console.log(data));
+The following endpoints are available:
+
+- `GET /customers`: Retrieve all customers.
+- `POST /customers`: Add a new customer.
+- `PATCH /customers/:id`: Update a specific customer.
+- `DELETE /customers/:id`: Delete a specific customer.
+
 
 
