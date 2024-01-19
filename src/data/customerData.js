@@ -1,4 +1,3 @@
-// src/data/customerData.js
 import fs from 'fs-extra';
 
 const CUSTOMERS_FILE = './customers.txt';
