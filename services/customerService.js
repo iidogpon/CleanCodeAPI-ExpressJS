@@ -1,4 +1,4 @@
-const customerData = require('./customerData');
+const customerData = require('../customerData');
 const crypto = require('crypto');
 
 const formatTimestamp = (timestamp) => {
