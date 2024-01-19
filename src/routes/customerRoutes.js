@@ -1,4 +1,3 @@
-// src/routes/customerRoutes.js
 import express from 'express';
 import { getCustomers, addCustomer, updateCustomer, deleteCustomer } from '../services/customerService.js';
 
