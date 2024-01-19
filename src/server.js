@@ -1,5 +1,6 @@
-const express = require('express');
-const customerRoutes = require('./customerRoutes');
+// src/server.js
+import express from 'express';
+import customerRoutes from './routes/customerRoutes.js';
 
 const app = express();
 app.use(express.json());
@@ -11,5 +12,3 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
-
-module.exports = app;
